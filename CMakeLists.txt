@@ -6,6 +6,7 @@ add_executable(
 	"src/main.cpp"
 	"src/day_1.cpp"
 	"src/day_2.cpp"
+	"src/day_3.cpp"
 )
 
 target_compile_features(aoc PRIVATE cxx_std_23)
