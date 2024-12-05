@@ -4,10 +4,11 @@
 #include <sstream>
 #include <string_view>
 
-extern auto day_1(std::string_view input) -> int;
-extern auto day_2(std::string_view input) -> int;
-extern auto day_3(std::string_view input) -> int;
-extern auto day_4(std::string_view input) -> int;
+auto day_1(std::string_view input) -> int;
+auto day_2(std::string_view input) -> int;
+auto day_3(std::string_view input) -> int;
+auto day_4(std::string_view input) -> int;
+auto day_5(std::string_view input) -> int;
 
 auto read_file(const std::filesystem::path& path) -> std::string
 {
@@ -22,6 +23,6 @@ auto read_file(const std::filesystem::path& path) -> std::string
 
 auto main() -> int
 {
-    auto input = read_file("../../../inputs/day_4.txt");
-    std::println("{}", day_4(input));
+    auto input = read_file("../../../inputs/day_5.txt");
+    std::println("{}", day_5(input));
 }
